@@ -1,0 +1,48 @@
+body {
+  /* min-height: 100vh; */
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.first-section {
+  margin: 0;
+  padding: 0px 256px;
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+ul {
+  display: flex;
+  color: #e5e7eb;
+  font-size: 18px;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left > h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.right,
+.left {
+  flex: 1;
+}
