@@ -6,7 +6,7 @@ body {
 
 .first-section {
   /* margin: 0; */
-  padding: 0px 200px;
+  padding: 16px 200px;
   background-color: #1f2937;
 }
 
@@ -14,14 +14,14 @@ body {
   display: flex;
   flex: 1;
   justify-content: space-between;
-  padding-top: 16px;
+  /* padding-top: 16px; */
   /* margin-bottom: 16px; */
 }
 
 .hero {
   display: flex;
   justify-content: space-evenly;
-  padding: 128px 0px;
+  padding: 100px 0px;
 }
 
 .logo {
@@ -44,6 +44,12 @@ ul {
   font-size: 48px;
   color: #f9faf8;
   font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.left > p {
+  margin-top: 0;
 }
 
 .right,
@@ -59,6 +65,10 @@ ul {
   background-color: gray;
 }
 
+.left {
+  margin-right: 16px;
+}
+
 button {
   background-color: #3882f6;
   color: white;
@@ -68,4 +78,40 @@ button {
   width: 128px;
   height: 32px;
   cursor: pointer;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+.items {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.container {
+  max-width: 130px;
+  text-align: center;
+  color: #1f2937;
+  font-size: 16px;
+}
+
+.info {
+  border-width: 3px;
+  border-color: #3882f6;
+  border-style: solid;
+  border-radius: 12px;
+  width: 130px;
+  height: 130px;
+}
+
+.third-section {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
 }
