@@ -80,10 +80,16 @@ button {
   cursor: pointer;
 }
 
+.second-section {
+  
+  padding: 30px 0px 75px 0px;
+}
+
 h2 {
   display: flex;
   justify-content: center;
-  margin: 32px;
+  margin: 0;
+  
 }
 .items {
   display: flex;
@@ -113,5 +119,35 @@ h2 {
 }
 
 .quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 400px;
+}
+
+.quote > p {
   font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color:#1f2937;
+  margin: 0;
+}
+
+.quote-end {
+  margin-left: auto;
+  font-weight: bolder;
+}
+
+.fourth-section {
+  /* background-color:; */
+  padding: 100px 400px;
+}
+
+.box {
+  display: flex;
+}
+
+.call-to-action {
+  background-color: #3882f6;
 }
